@@ -1,0 +1,103 @@
+Erison@Erison-PC MINGW64 /g/Meu Drive/Bookdonwm/Bookdonwn (erison.barros)
+$ git init
+Reinitialized existing Git repository in G:/Meu Drive/Bookdonwm/Bookdonwn/.git/
+
+Erison@Erison-PC MINGW64 /g/Meu Drive/Bookdonwm/Bookdonwn (erison.barros)
+$ git status
+starting fsmonitor-daemon in 'G:/Meu Drive/Bookdonwm/Bookdonwn'
+On branch erison.barros
+Your branch is up to date with 'origin/erison.barros'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        Bookdonwn/
+        Projeto/
+        bash.exe.stackdump
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Erison@Erison-PC MINGW64 /g/Meu Drive/Bookdonwm/Bookdonwn (erison.barros)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+Erison@Erison-PC MINGW64 /g/Meu Drive/Bookdonwm/Bookdonwn (erison.barros)
+$ git add .
+warning: adding embedded git repository: Bookdonwn
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> Bookdonwn
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached Bookdonwn
+hint:
+hint: See "git help submodule" for more information.
+warning: LF will be replaced by CRLF in bash.exe.stackdump.
+The file will have its original line endings in your working directory
+
+Erison@Erison-PC MINGW64 /g/Meu Drive/Bookdonwm/Bookdonwn (erison.barros)
+$ git commit -m "1"
+[erison.barros e85d58a] 1
+ 7 files changed, 58 insertions(+), 1 deletion(-)
+ create mode 100644 .gitignore
+ create mode 160000 Bookdonwn
+ create mode 100644 Projeto/1.R
+ create mode 100644 Projeto/Etapas.R
+ create mode 100644 Projeto/Projeto.Rproj
+ create mode 100644 bash.exe.stackdump
+
+Erison@Erison-PC MINGW64 /g/Meu Drive/Bookdonwm/Bookdonwn (erison.barros)
+$ git push
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (9/9), 1.48 KiB | 89.00 KiB/s, done.
+Total 9 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/ErisonBarros/Bookdonwn.git
+   6c2794d..e85d58a  erison.barros -> erison.barros
+
+Erison@Erison-PC MINGW64 /g/Meu Drive/Bookdonwm/Bookdonwn (erison.barros)
+$ git log
+commit e85d58ada7672a6c9bf446486e4b613cfd38b972 (HEAD -> erison.barros, origin/erison.barros, origin/HEAD)
+Author: Erison Barros <erobeng@gmail.com>
+Date:   Tue Sep 14 16:21:53 2021 -0300
+
+    1
+
+commit 6c2794de6321bc43f17670ff5fb8c2ffc3373264
+Author: ERISON ROSA DE OLIVEIRA BARROS <erobeng@gmail.com>
+Date:   Mon Sep 13 00:35:12 2021 -0300
+
+    Update README.md
+
+commit c92ccd7d87ca92be5e7259a76aad8bb8428dd09a
+Author: ERISON ROSA DE OLIVEIRA BARROS <erobeng@gmail.com>
+Date:   Mon Sep 13 00:34:57 2021 -0300
+
+    Primeiro
+
+commit 5b4d726b03def5baa42e8721dcd25a6aa930ea12
+Author: Erison Barros <erobeng@gmail.com>
+Date:   Mon Sep 13 00:30:14 2021 -0300
+
+    first commit
+
+Erison@Erison-PC MINGW64 /g/Meu Drive/Bookdonwm/Bookdonwn (erison.barros)
+$ ^C
+
+Erison@Erison-PC MINGW64 /g/Meu Drive/Bookdonwm/Bookdonwn (erison.barros)
+$
